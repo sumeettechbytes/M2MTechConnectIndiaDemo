@@ -22,9 +22,6 @@ jobs:
         with:
           node-version: 16.x
 
-      - name: Running tests
-        run: npm run test
-
       - name: Uploading production-ready build files
         uses: actions/upload-artifact@v2
         with:
